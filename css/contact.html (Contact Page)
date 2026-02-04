@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Index Group for partnerships, careers, finance, or nominations.">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="images/index-group-logo.png" alt="Index Group Logo" width="200">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="overview.html">Overview</a></li>
+        <li><a href="botswana-index.html">Botswana Index</a></li>
+        <li><a href="index-100.html">Index 100</a></li>
+        <li><a href="methodology.html">Methodology</a></li>
+        <li><a href="partnerships.html">Partnerships</a></li>
+        <li><a href="advisory.html">Advisory</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Contact</h1>
+    <p>For inquiries, please use the appropriate email address below. Your message will be routed to the relevant team.</p>
+    <ul>
+      <li>Partnerships: <a href="mailto:partnerships@indexgroup.co.bw">partnerships@indexgroup.co.bw</a></li>
+      <li>Careers: <a href="mailto:careers@indexgroup.co.bw">careers@indexgroup.co.bw</a></li>
+      <li>Finance: <a href="mailto:finance@indexgroup.co.bw">finance@indexgroup.co.bw</a></li>
+      <li>Nominees: <a href="mailto:nominees@indexgroup.co.bw">nominees@indexgroup.co.bw</a></li>
+    </ul>
+    <h2>Contact Form</h2>
+    <form action="mailto:info@indexgroup.co.bw" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>Note: This form uses your email client. For more advanced submission, consider integrating a free service like Formspree.</p>
+  </section>
+
+  <footer>
+    <img src="images/index-group-logo.png" alt="Index Group Logo" width="150">
+    <p>&copy; 2026 Index Group. All rights reserved.</p>
+  </footer>
+</body>
+</html>
