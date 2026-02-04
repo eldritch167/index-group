@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detailed methodology for the Index 100, including evaluation pillars and governance firewalls.">
+  <title>Index 100 Methodology</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="images/index-group-logo.png" alt="Index Group Logo" width="200">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="overview.html">Overview</a></li>
+        <li><a href="botswana-index.html">Botswana Index</a></li>
+        <li><a href="index-100.html">Index 100</a></li>
+        <li><a href="methodology.html">Methodology</a></li>
+        <li><a href="partnerships.html">Partnerships</a></li>
+        <li><a href="advisory.html">Advisory</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Index 100 Methodology</h1>
+    <h2>A. Evaluation Pillars</h2>
+    <ul>
+      <li>Governance & Integrity</li>
+      <li>Leadership & Human Capital</li>
+      <li>Innovation & Digital Readiness</li>
+      <li>Social & Institutional Impact</li>
+    </ul>
+
+    <h2>B. Data Sources</h2>
+    <ul>
+      <li>Public disclosures</li>
+      <li>Structured submissions</li>
+      <li>Third-party validation</li>
+      <li>Advisory review layers</li>
+    </ul>
+
+    <h2>C. Governance Firewalls</h2>
+    <ul>
+      <li>Separation between sponsors and evaluation</li>
+      <li>Independent advisory oversight</li>
+      <li>Conflict-of-interest declarations (mandatory)</li>
+    </ul>
+
+    <h2>D. Inclusion & Removal Clauses</h2>
+    <ul>
+      <li>Post-inclusion review triggers</li>
+      <li>Ethical breach clauses</li>
+      <li>Material misrepresentation grounds</li>
+      <li>Removal without financial penalty to Index Group</li>
+    </ul>
+
+    <h2>E. Appeals Mechanism</h2>
+    <ul>
+      <li>Formal appeal window</li>
+      <li>Independent review panel</li>
+      <li>Non-public deliberation</li>
+      <li>Final determination archived</li>
+    </ul>
+
+    <h2>F. Transparency Statement</h2>
+    <p>What is public: Index inclusions and high-level methodologies.</p>
+    <p>What remains confidential: Detailed submissions and review deliberations.</p>
+    <p>Discretion is integral to maintaining integrity in the process.</p>
+  </section>
+
+  <footer>
+    <img src="images/index-group-logo.png" alt="Index Group Logo" width="150">
+    <p>&copy; 2026 Index Group. All rights reserved.</p>
+  </footer>
+</body>
+</html>
