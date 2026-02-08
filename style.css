@@ -17,10 +17,14 @@ body {
   padding: 0 20px;
 }
 
-/* Header */
+/* Header - white bg, black text, blue hover */
 header {
   background: #ffffff;
   padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 header .container {
@@ -30,19 +34,20 @@ header .container {
 }
 
 .logo img {
-  height: 40px;
+  height: 48px;
 }
 
 nav ul {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 28px;
 }
 
 nav a {
   color: #000000;
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.2s;
 }
 
 nav a:hover {
@@ -51,28 +56,31 @@ nav a:hover {
 
 /* Hero */
 .hero {
-  padding: 100px 0;
+  padding: 120px 0 80px;
   text-align: center;
 }
 
 .hero h1 {
   font-size: 3.5rem;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .hero p {
-  font-size: 1.25rem;
-  margin-bottom: 20px;
+  font-size: 1.5rem;
   color: #cccccc;
+  max-width: 800px;
+  margin: 0 auto 40px;
 }
 
 .credibility-band {
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: #999999;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-/* What Index Group Is */
+/* What Index Group Is - white bg, outlined tiles */
 .what-is {
   background: #ffffff;
   padding: 80px 0;
@@ -82,35 +90,35 @@ nav a:hover {
 .what-is h2 {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 .tiles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 32px;
 }
 
 .tile {
   background: #ffffff;
-  padding: 30px;
+  padding: 40px;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   border: 1px solid #e0e0e0;
 }
 
 .tile h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 1.75rem;
+  margin-bottom: 16px;
   color: #3FA2FF;
 }
 
 .tile p {
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: #444444;
 }
 
-/* Products */
+/* Products - dark gray bg, white tiles, black text */
 .products {
   background: #111111;
   padding: 80px 0;
@@ -119,53 +127,55 @@ nav a:hover {
 .products h2 {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
 }
 
 .product-card {
   background: #ffffff;
-  padding: 30px;
+  padding: 32px;
   border-radius: 8px;
   text-align: center;
   color: #000000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .product-card img {
-  height: 80px;
-  margin-bottom: 20px;
+  max-width: 180px;
+  margin-bottom: 24px;
 }
 
 .product-card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 1.75rem;
+  margin-bottom: 16px;
 }
 
 .product-card p {
-  font-size: 1rem;
-  margin-bottom: 20px;
+  font-size: 1.125rem;
   color: #444444;
+  margin-bottom: 24px;
 }
 
 .cta {
   background: #3FA2FF;
   color: #ffffff;
-  padding: 10px 20px;
-  border-radius: 4px;
+  padding: 12px 32px;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
+  display: inline-block;
 }
 
 .cta:hover {
-  background: #2a8dd2;
+  background: #1e88e5;
 }
 
-/* Stamps Section */
+/* Stamps - black bg, full white stamps */
 .stamps-section {
   background: #000000;
   padding: 80px 0;
@@ -173,25 +183,26 @@ nav a:hover {
 }
 
 .stamps-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 40px;
+  font-size: 2.25rem;
+  margin-bottom: 48px;
 }
 
 .stamp-grid {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 60px;
-  flex-wrap: wrap;
 }
 
 .stamp-item {
-  max-width: 280px;
-  text-align: left;
+  max-width: 260px;
+  text-align: center;
 }
 
 .stamp-item img {
   width: 100%;
-  margin-bottom: 10px;
+  height: auto;
+  margin-bottom: 16px;
 }
 
 .stamp-item p {
@@ -199,7 +210,7 @@ nav a:hover {
   color: #cccccc;
 }
 
-/* Testimonials */
+/* Testimonials - white bg, blue border */
 .testimonials {
   background: #ffffff;
   padding: 80px 0;
@@ -208,33 +219,36 @@ nav a:hover {
 
 .testimonials h2 {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 40px;
+  font-size: 2.25rem;
+  margin-bottom: 48px;
 }
 
 .testimonial-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 32px;
 }
 
 blockquote {
   border-left: 4px solid #3FA2FF;
   padding: 0 0 0 20px;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1.125rem;
   color: #444444;
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 24px;
 }
 
 cite {
   display: block;
-  margin-top: 10px;
+  margin-top: 12px;
   font-style: normal;
   color: #3FA2FF;
-  font-weight: 500;
+  font-weight: 600;
 }
 
-/* Get Involved */
+/* Get Involved - blue bg, white buttons with black text */
 .cta-bar {
   background: #3FA2FF;
   padding: 80px 0;
@@ -243,24 +257,25 @@ cite {
 
 .cta-bar h2 {
   font-size: 2.5rem;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   color: #ffffff;
 }
 
 .cta-buttons {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 24px;
   flex-wrap: wrap;
 }
 
 .cta-button {
   background: #ffffff;
   color: #000000;
-  padding: 12px 30px;
-  border-radius: 4px;
+  padding: 16px 40px;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
+  font-size: 1.125rem;
   transition: background 0.2s;
 }
 
@@ -268,41 +283,47 @@ cite {
   background: #f0f0f0;
 }
 
-/* Footer */
+/* Footer - black bg, white stamps bigger */
 footer {
   background: #000000;
-  padding: 60px 0;
+  padding: 60px 0 40px;
   color: #ffffff;
+  text-align: center;
 }
 
 .footer-logo {
-  height: 50px;
-  margin-bottom: 20px;
+  height: 60px;
+  margin-bottom: 24px;
 }
 
-.footer-content {
+.footer-columns {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 30px;
+  max-width: 1000px;
+  margin: 0 auto 32px;
 }
 
 .footer-nav, .footer-contact {
   min-width: 200px;
+  text-align: left;
 }
 
 .footer-nav h3, .footer-contact h3 {
   font-size: 1.25rem;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .footer-nav ul, .footer-contact ul {
   list-style: none;
+  padding: 0;
 }
 
 .footer-nav a {
   color: #ffffff;
   text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
 }
 
 .footer-nav a:hover {
@@ -310,39 +331,33 @@ footer {
 }
 
 .footer-contact li {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: #cccccc;
 }
 
-p {
-  text-align: center;
-  font-size: 0.9rem;
-  margin-bottom: 30px;
+footer p {
+  font-size: 0.95rem;
+  margin-bottom: 32px;
 }
 
 .footer-stamps {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .footer-stamps img {
-  height: 100px;
+  height: 120px;
+  width: auto;
   opacity: 1;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .tiles-grid, .products-grid, .stamp-grid, .testimonial-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cta-buttons {
-    flex-direction: column;
-  }
+  .hero h1 { font-size: 2.8rem; }
+  .hero p { font-size: 1.25rem; }
+  .tiles-grid, .products-grid, .testimonial-grid, .stamp-grid { grid-template-columns: 1fr; gap: 24px; }
+  .cta-buttons { flex-direction: column; gap: 16px; }
+  .footer-columns { flex-direction: column; gap: 32px; text-align: center; }
 }
