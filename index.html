@@ -1,69 +1,195 @@
-<!DOCTYPE html>  
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Index Group — Defining Corporate Excellence in Botswana. Home of the Botswana Index Series.">
-  <title>Index Group</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Index Group — Defining Corporate Excellence in Botswana. Home of the Botswana Index Series — data-led recognition, governance standards, and institutional benchmarking."/>
+  <title>Index Group — Defining Corporate Excellence in Botswana</title>
+
+  <!-- Favicon (replace with your actual favicon.ico or .png) -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+
+  <!-- Google Fonts: Inter (matches Figma) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+
+  <!-- Header / Navigation -->
   <header>
-    <img src="images/index-group-logo.png" alt="Index Group Logo" width="200">
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="overview.html">Overview</a></li>
-        <li><a href="botswana-index.html">Botswana Index</a></li>
-        <li><a href="index-100.html">Index 100</a></li>
-        <li><a href="methodology.html">Methodology</a></li>
-        <li><a href="partnerships.html">Partnerships</a></li>
-        <li><a href="advisory.html">Advisory</a></li>
-        <li><a href="downloads.html">Downloads</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <div class="logo">
+        <img src="images/index-group-logo.png" alt="Index Group Logo"/>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="overview.html">Overview</a></li>
+          <li><a href="botswana-index.html">Botswana Index</a></li>
+          <li><a href="index-100.html">Index 100</a></li>
+          <li><a href="methodology.html">Methodology</a></li>
+          <li><a href="partnerships.html">Partnerships</a></li>
+          <li><a href="advisory.html">Advisory</a></li>
+          <li><a href="downloads.html">Downloads</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
+  <!-- Hero -->
   <section class="hero">
-    <h1>Index Group — Defining Corporate Excellence in Botswana</h1>
-    <p>Home of the Botswana Index Series — data-led recognition, governance standards, and institutional benchmarking.</p>
-  </section>
+    <div class="container">
+      <h1>Index Group — Defining Corporate Excellence in Botswana</h1>
+      <p>Home of the Botswana Index Series — data-led recognition, governance standards, and institutional benchmarking.</p>
 
-  <section>
-    <p>Built with governance professionals, corporate leaders, international advisors, and returned global professionals with long-term ties to Botswana.</p>
-  </section>
-
-  <section>
-    <h2>What Index Group Is</h2>
-    <ul>
-      <li>Parent platform for national indexes</li>
-      <li>Builder of governance-grade recognition systems</li>
-      <li>Bridge between local institutions and global standards</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Products Snapshot</h2>
-    <p><img src="images/index-100-logo.png" alt="Index 100 Logo" width="150" class="large-number"></p>
-    <p>Botswana Index 100</p>
-    <p>Index 400 <span class="active-signal">(pipeline)</span></p>
-    <p>Index 500 <span class="active-signal">(pipeline)</span></p>
-    <div class="accreditation">
-      <p>Index methodologies accredited by the Botswana Institute for Corporate Excellence (BICE)</p>
-      <img src="images/bice-stamp.png" alt="BICE Accreditation Stamp">
+      <div class="credibility-band">
+        Built with governance professionals, corporate leaders, international advisors, and returned global professionals with long-term ties to Botswana.
+      </div>
     </div>
   </section>
 
-  <section>
-    <a href="index-100.html" class="cta-button">View Index 100</a>
-    <a href="downloads.html" class="cta-button">Download Overview</a>
-    <a href="partnerships.html" class="cta-button">Partnerships & Sponsorships</a>
+  <!-- What Index Group Is -->
+  <section class="what-is">
+    <div class="container">
+      <h2>What Index Group Is</h2>
+      <div class="tiles-grid">
+        <div class="tile">
+          <h3>Parent platform for national indexes</h3>
+          <p>Index Group serves as the parent platform for a family of national indexes in Botswana. It establishes a unified, governance-first framework that enables consistent, data-led evaluation of corporate performance across sectors and over time.</p>
+        </div>
+        <div class="tile">
+          <h3>Builder of governance-grade recognition systems</h3>
+          <p>The platform acts as a builder of governance-grade recognition systems. It develops rigorous, transparent methodologies that reflect Botswana’s unique operating context while aligning with international best practices in corporate accountability and institutional maturity.</p>
+        </div>
+        <div class="tile">
+          <h3>Bridge between local institutions and global standards</h3>
+          <p>Index Group functions as a deliberate bridge between local institutions and global standards. It facilitates credible comparability, fosters continuous improvement, and positions Botswana’s leading organisations within broader continental and international benchmarks without compromising local relevance.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <!-- Products Snapshot -->
+  <section class="products">
+    <div class="container">
+      <h2>Products Snapshot</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <img src="images/index-100-logo.png" alt="Botswana Index 100"/>
+          <h3>Botswana Index 100</h3>
+          <p>Flagship annual recognition of corporate excellence across governance, leadership, innovation, and social impact. Inclusion signals high institutional maturity and ethical leadership in Botswana’s business landscape.</p>
+          <a href="index-100.html" class="cta">Learn More</a>
+        </div>
+        <div class="product-card pipeline">
+          <h3>Index 400</h3>
+          <p>Extended recognition platform currently in development. Will encompass a broader universe of organisations, providing deeper sectoral and regional benchmarking while maintaining the same governance-first methodology.</p>
+          <span class="status">In development</span>
+        </div>
+        <div class="product-card pipeline">
+          <h3>Index 500</h3>
+          <p>Comprehensive institutional benchmarking series in development. Designed to cover the full spectrum of Botswana’s corporate and public-sector entities, with archival permanence and long-term comparability.</p>
+          <span class="status">In development</span>
+        </div>
+        <div class="product-card">
+          <h3>Brand Excellence Summit</h3>
+          <p>Annual convening for brand and governance leaders — partnered event that brings together corporate stewards, policymakers, and international advisors to discuss standards, trends, and future direction.</p>
+          <span class="status">Partnered</span>
+        </div>
+        <div class="product-card">
+          <h3>BAID Brief</h3>
+          <p>Strategic intelligence and institutional analysis series — partnered publication delivering concise, data-informed insights on Botswana’s corporate landscape to decision-makers and stakeholders.</p>
+          <span class="status">Partnered</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accreditation / Stamps Section -->
+  <section class="stamps-section">
+    <div class="container">
+      <h2>Index Methodologies Accredited & Recognized by Leading Institutions</h2>
+      <div class="stamp-grid">
+        <div class="stamp-item">
+          <img src="images/bice-stamp.png" alt="BICE Accreditation"/>
+          <p>Methodologies formally accredited by the Botswana Institute for Corporate Excellence (BICE), ensuring alignment with national governance standards and institutional best practice.</p>
+        </div>
+        <div class="stamp-item">
+          <img src="images/sadc-brands-stamp.png" alt="SADC Brands"/>
+          <p>Recognized within the SADC Brands framework, affirming regional relevance and adherence to Southern African corporate excellence principles.</p>
+        </div>
+        <div class="stamp-item">
+          <img src="images/botswana-pride-stamp.png" alt="Botswana Pride"/>
+          <p>Endorsed as a symbol of Botswana Pride, reflecting commitment to national values of integrity, innovation, and long-term institutional strength.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof / Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>Recognized Voices</h2>
+      <div class="testimonial-grid">
+        <blockquote>
+          "Inclusion in the Index has become a useful talking point in investor and regulator conversations."
+          <cite>— Non-Executive Director, Netcare Holdings (Pty) Ltd.</cite>
+        </blockquote>
+        <blockquote>
+          "Being recognised in the Index has helped us articulate our commitment to ethical governance to both local stakeholders and international partners."
+          <cite>— Managing Director, Mining & Power Systems Services Botswana (Pty) Ltd.</cite>
+        </blockquote>
+        <blockquote>
+          "Index Group is quietly becoming an important part of how serious companies in Botswana signal long-term credibility."
+          <cite>— Strategy Advisor, Appen Ridge (Pty) Ltd.</cite>
+        </blockquote>
+        <blockquote>
+          "It is refreshing to have a Botswana-centric benchmark that complements rather than competes with global ratings."
+          <cite>— Head of Governance, KPSMG (Pty) Ltd.</cite>
+        </blockquote>
+        <blockquote>
+          "Index Group provides a structured, data-driven lens through which Botswana's leading organisations can measure and communicate their governance standards."
+          <cite>— Senior Partner, Mapiki Legal Practice</cite>
+        </blockquote>
+        <blockquote>
+          "Participating in the Index has given our board a clear external reference point for ongoing improvement in corporate practices especially in the financial sector."
+          <cite>— Chairperson, Clemmar Services (Pty) Ltd.</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Bar -->
+  <section class="cta-bar">
+    <div class="container">
+      <h2>Get Involved</h2>
+      <div class="cta-buttons">
+        <a href="index-100.html" class="cta-button">View Index 100</a>
+        <a href="downloads.html" class="cta-button">Download Overview</a>
+        <a href="partnerships.html" class="cta-button">Partnerships & Sponsorships</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <img src="images/index-group-logo.png" alt="Index Group Logo" width="150">
-    <p>&copy; 2026 Index Group. All rights reserved.</p>
+    <div class="container">
+      <img src="images/index-group-logo.png" alt="Index Group Logo" class="footer-logo"/>
+      <p>&copy; 2026 Index Group. All rights reserved.</p>
+      <div class="footer-stamps">
+        <img src="images/bice-stamp.png" alt="BICE"/>
+        <img src="images/sadc-brands-stamp.png" alt="SADC Brands"/>
+        <img src="images/botswana-pride-stamp.png" alt="Botswana Pride"/>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
   </footer>
 </body>
 </html>
