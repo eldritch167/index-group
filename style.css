@@ -392,3 +392,30 @@ footer p {
   color: #dddddd;
   max-width: 900px;
 }
+
+/* Improved spacing for paragraphs and lists in content sections */
+.content-section p {
+  margin-bottom: 32px !important;  /* More breathing room between paragraphs */
+}
+
+.content-section ul {
+  margin-bottom: 32px !important;
+  padding-left: 24px;
+}
+
+.content-section li {
+  margin-bottom: 12px;
+  font-size: 1.125rem;
+  color: #dddddd;
+}
+
+/* Extra breathing room above headings inside content */
+.content-section h2 {
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+/* Optional: slightly more padding around the entire content section */
+.content-section {
+  padding: 100px 0 !important;  /* Increased top/bottom padding */
+}
