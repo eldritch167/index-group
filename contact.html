@@ -153,4 +153,16 @@
   </footer>
 
 </body>
+  <script>
+  const form = document.querySelector('form');
+  const subjectSelect = document.getElementById('subject');
+
+  subjectSelect.addEventListener('change', () => {
+    let email = 'partnerships@indexgroup.co.bw';
+    if (subjectSelect.value === 'Careers & Opportunities') email = 'careers@indexgroup.co.bw';
+    if (subjectSelect.value === 'Nominations & Submissions') email = 'nominees@indexgroup.co.bw';
+    if (subjectSelect.value === 'General Inquiry') email = 'partnerships@indexgroup.co.bw';
+    form.action = `mailto:${email}`;
+  });
+</script>
 </html>
