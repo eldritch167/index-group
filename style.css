@@ -581,3 +581,102 @@ footer p {
   font-weight: 600;
   font-size: 1.25rem;
 }
+
+/* Contact Section */
+.contact-section {
+  background: #111111;
+  padding: 80px 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.direct-contact h2, .message-form h2 {
+  font-size: 2rem;
+  margin-bottom: 32px;
+  color: #3FA2FF;
+}
+
+/* Email Tiles */
+.email-tile {
+  background: #1a1a1a;
+  padding: 24px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.email-icon {
+  font-size: 1.5rem;
+  color: #3FA2FF;
+  margin-right: 12px;
+}
+
+.email-tile h3 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.email-tile a {
+  color: #3FA2FF;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.email-tile p {
+  font-size: 1rem;
+  color: #dddddd;
+  margin-top: 8px;
+}
+
+/* Form */
+.message-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.message-form label {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.message-form input, .message-form select, .message-form textarea {
+  background: #1a1a1a;
+  border: 1px solid #333333;
+  padding: 12px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.message-form button {
+  background: #3FA2FF;
+  color: #ffffff;
+  padding: 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.message-form button:hover {
+  background: #1e88e5;
+}
+
+/* Routing Explanation */
+.contact-section h2 + p {
+  color: #dddddd;
+  margin-bottom: 24px;
+}
+
+/* Responsive for Contact Grid */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
