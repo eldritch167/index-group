@@ -543,3 +543,25 @@ footer p {
 .cta-button:hover {
   background: #1e88e5;
 }
+
+/* Tier Cards Spacing */
+.tier-card {
+  margin-bottom: 48px; /* Spacing between Schedule Call and next tier name */
+}
+
+/* Tier Colored Outlines */
+.strategic {
+  border: 2px solid #CD7F32; /* Bronze */
+}
+
+.steward {
+  border: 2px solid #C0C0C0; /* Silver */
+}
+
+.vanguard {
+  border: 2px solid #FFD700; /* Gold */
+}
+
+.founding {
+  border: 2px solid #000000; /* Black */
+}
