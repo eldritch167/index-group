@@ -465,3 +465,81 @@ footer p {
   left: 0;
   color: #3FA2FF;
 }
+
+/* Tiers Grid & Colored Cards */
+.tiers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.tier-card {
+  background: #1a1a1a;
+  padding: 32px;
+  border-radius: 8px;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  opacity: 0.9; /* Semi-opaque as requested */
+}
+
+.tier-card h3 {
+  font-size: 1.75rem;
+  margin-bottom: 12px;
+  color: #3FA2FF;
+}
+
+.tier-card p {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+  color: #dddddd;
+}
+
+.tier-card ul {
+  margin-bottom: 24px;
+  padding-left: 24px;
+  color: #cccccc;
+}
+
+.tier-card li {
+  margin-bottom: 8px;
+}
+
+/* Tier-specific colors */
+.strategic {
+  background: linear-gradient(rgba(205,127,50,0.2), #111111); /* Bronze semi-opaque */
+}
+
+.steward {
+  background: linear-gradient(rgba(192,192,192,0.2), #111111); /* Silver */
+}
+
+.vanguard {
+  background: linear-gradient(rgba(255,215,0,0.2), #111111); /* Gold */
+}
+
+.founding {
+  background: linear-gradient(rgba(0,0,0,0.2), #111111); /* Black */
+}
+
+/* Center CTA */
+.cta-center {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta-button {
+  background: #3FA2FF;
+  color: #ffffff;
+  padding: 16px 40px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: background 0.2s;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background: #1e88e5;
+}
