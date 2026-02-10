@@ -680,3 +680,45 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
+/* Downloads Grid - Complex Layout with Tiles */
+.downloads-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+}
+
+.download-tile {
+  background: #1a1a1a;
+  padding: 32px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.download-tile h3 {
+  font-size: 1.75rem;
+  margin-bottom: 16px;
+  color: #3FA2FF;
+}
+
+.download-tile p {
+  font-size: 1.125rem;
+  color: #dddddd;
+  margin-bottom: 16px;
+}
+
+.download-tile .cta {
+  background: #3FA2FF;
+  color: #ffffff;
+  padding: 12px 32px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: background 0.2s;
+}
+
+.download-tile .cta:hover {
+  background: #1e88e5;
+}
