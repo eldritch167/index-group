@@ -565,3 +565,19 @@ footer p {
 .founding {
   border: 2px solid #000000; /* Black */
 }
+
+/* Email Bar - blue bar for contact email */
+.email-bar {
+  background: #3FA2FF;
+  padding: 16px 32px;
+  border-radius: 6px;
+  text-align: center;
+  margin: 24px 0;
+}
+
+.email-bar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
