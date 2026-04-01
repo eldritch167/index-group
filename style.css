@@ -826,7 +826,51 @@ footer p {
   padding: 1.5rem;
   border-radius: 8px;
 }
+/* WAR-MODE HOMEPAGE FIX - Forbes-style clean & tight */
+.three-column {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+@media (max-width: 992px) { .three-column { grid-template-columns: 1fr; } }
 
+.panel { background: white; padding: 1.8rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+
+.spotlight-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+.spotlight-card {
+  background: #000000;
+  color: #ffffff;
+  padding: 1.8rem 1.2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+.spotlight-card img { max-height: 58px; margin-bottom: 12px; }
+.spotlight-card h4 { margin: 0 0 4px; font-size: 1.15rem; }
+.spotlight-card p { color: #D4AF37; font-size: 0.95rem; }
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+.news-card img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.accreditation-section { background: #000000; color: #ffffff; padding: 3.5rem 0; text-align: center; }
+.accreditation-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem; }
+.accreditation-card { background: rgba(255,255,255,0.08); padding: 1.8rem; border-radius: 8px; }
 .accreditation-card img {
   max-height: 80px;
   margin-bottom: 1rem;
