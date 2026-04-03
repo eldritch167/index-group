@@ -13,11 +13,36 @@
 </head>
 <body>
 
-    <!-- THREE-COLUMN PANEL -->
+  <!-- HEADER - restored exactly like your other pages + Figma -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/index-group-logo.png" alt="Index Group Logo">
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="overview.html">Overview</a></li>
+          <li><a href="botswana-index.html">Botswana Index</a></li>
+          <li><a href="index-100.html">Index 100</a></li>
+          <li><a href="methodology.html">Methodology</a></li>
+          <li><a href="partnerships.html">Partnerships</a></li>
+          <li><a href="advisory.html">Advisory</a></li>
+          <li><a href="downloads.html">Downloads</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="nominate-btn">Nominate Your Company</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- THREE-COLUMN PANEL (exact Figma layout) -->
   <section class="three-column container">
     <div class="panel">
       <h3>Evening Brief</h3>
-      <ul style="list-style:none;padding:0;margin:1rem 0 0 0;line-height:1.6;">
+      <ul>
         <li>Botswana Mining Output Hits Record High in Q1 2026 — 2 Apr 2026</li>
         <li>Major Telecom Merger Talks Accelerate — 1 Apr 2026</li>
         <li>New Foreign Investment Bill Passes Parliament — 28 Mar 2026</li>
@@ -27,67 +52,45 @@
     </div>
 
     <div class="panel">
-      <img src="images/center-panel.png" alt="Corporate Skyline" style="width:100%;border-radius:8px;margin-bottom:1.2rem;">
-      <h2 style="margin-top:0;">Why Corporate Prestige Is Becoming Botswana’s Most Valuable Asset in 2026</h2>
+      <img src="images/center-panel.png" alt="Corporate Skyline">
+      <h2>Why Corporate Prestige Is Becoming Botswana’s Most Valuable Asset in 2026</h2>
       <p>In a competitive Southern African market, being seen as elite is no longer optional — it’s the difference between growth and stagnation.</p>
       <p><small>Index Group Editorial — 2 April 2026</small></p>
     </div>
 
     <div class="panel">
       <h3>Business Pulse</h3>
-      <div style="background:#f8f9fa;padding:1.2rem;margin-bottom:1rem;border-radius:6px;">KPSMG Botswana reports 14% revenue growth in Q1 2026<br><small>Real-Time Update as of 2 April 2026</small></div>
-      <div style="background:#f8f9fa;padding:1.2rem;margin-bottom:1rem;border-radius:6px;">First Capital expands regional footprint with new branch<br><small>Real-Time Update as of 2 April 2026</small></div>
-      <div style="background:#f8f9fa;padding:1.2rem;border-radius:6px;">Access Botswana secures major government contract<br><small>Real-Time Update as of 2 April 2026</small></div>
+      <div class="pulse-item">KPSMG Botswana reports 14% revenue growth in Q1 2026<br><small>Real-Time Update as of 2 April 2026</small></div>
+      <div class="pulse-item">First Capital expands regional footprint with new branch<br><small>Real-Time Update as of 2 April 2026</small></div>
+      <div class="pulse-item">Access Botswana secures major government contract<br><small>Real-Time Update as of 2 April 2026</small></div>
 
-      <h3 style="margin-top:2rem;">LIVE POLL – 47 Responses</h3>
-      <p style="margin-bottom:1rem;">What matters most for corporate prestige in Botswana right now?</p>
-      <label style="display:block;margin:0.6rem 0;"><input type="radio"> Talent attraction</label>
-      <label style="display:block;margin:0.6rem 0;"><input type="radio"> Networking access</label>
-      <label style="display:block;margin:0.6rem 0;"><input type="radio"> Media visibility</label>
-      <label style="display:block;margin:0.6rem 0;"><input type="radio"> Regulatory influence</label>
-      <label style="display:block;margin:0.6rem 0;"><input type="radio"> Community impact</label>
+      <h3>LIVE POLL – 47 Responses</h3>
+      <p>What matters most for corporate prestige in Botswana right now?</p>
+      <label><input type="radio"> Talent attraction</label>
+      <label><input type="radio"> Networking access</label>
+      <label><input type="radio"> Media visibility</label>
+      <label><input type="radio"> Regulatory influence</label>
+      <label><input type="radio"> Community impact</label>
     </div>
   </section>
 
-  <!-- Divider -->
-  <div style="height:1px;background:#e5e5e5;margin:3.5rem 0;"></div>
-
-  <!-- What Index Group Is -->
-  <section class="container">
-    <h2>What Index Group Is</h2>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;">
-      <div style="background:white;padding:1.8rem;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.06);">
-        <h3>Parent platform for national indexes</h3>
-        <p>Index Group serves as the parent platform for a family of national indexes in Botswana. It establishes a unified, governance-first framework.</p>
-      </div>
-      <div style="background:white;padding:1.8rem;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.06);">
-        <h3>Builder of governance-grade recognition systems</h3>
-        <p>The platform acts as a builder of governance-grade recognition systems. It develops rigorous, transparent methodologies.</p>
-      </div>
-      <div style="background:white;padding:1.8rem;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.06);">
-        <h3>Bridge between local institutions and global standards</h3>
-        <p>Index Group functions as a deliberate bridge between local institutions and global standards.</p>
-      </div>
+  <!-- CURRENT SPOTLIGHT COMPANIES -->
+  <section class="container spotlight-section">
+    <h2>CURRENT SPOTLIGHT COMPANIES</h2>
+    <div class="spotlight-grid">
+      <div class="spotlight-card"><img src="images/kpsmg-botswana.png" alt=""><h4>KPSMG Botswana</h4><p>Leader in Financial Stability</p></div>
+      <div class="spotlight-card"><img src="images/sanlam.png" alt=""><h4>Sanlam</h4><p>Excellence in Risk Management</p></div>
+      <div class="spotlight-card"><img src="images/first-capital.png" alt=""><h4>First Capital</h4><p>Banking Innovation Pioneer</p></div>
+      <div class="spotlight-card"><img src="images/access-botswana.png" alt=""><h4>Access Botswana</h4><p>Excellence in Digital Connectivity</p></div>
+      <div class="spotlight-card"><img src="images/dhl.png" alt=""><h4>DHL</h4><p>Logistics & Supply Chain Leader</p></div>
+      <div class="spotlight-card"><img src="images/appen-ridge.png" alt=""><h4>Appen Ridge</h4><p>Regional Innovation Pioneer</p></div>
+      <div class="spotlight-card"><img src="images/clemmar.png" alt=""><h4>Clemmar</h4><p>Sustainability Champion</p></div>
+      <div class="spotlight-card"><img src="images/mpssb.png" alt=""><h4>MPSSB</h4><p>Engineering Excellence Leader</p></div>
     </div>
   </section>
 
-  <!-- Spotlight Companies (black) -->
-  <section class="container" style="margin:3.5rem 0;">
-    <h2>Current Spotlight Companies</h2>
-    <div class="spotlight-tiles">
-      <div class="spotlight-card"><img src="images/kpsmg-botswana.png" alt="KPSMG"><h4>KPSMG Botswana</h4><p>Leader in Financial Stability</p></div>
-      <div class="spotlight-card"><img src="images/sanlam.png" alt="Sanlam"><h4>Sanlam</h4><p>Excellence in Risk Management</p></div>
-      <div class="spotlight-card"><img src="images/first-capital.png" alt="First Capital"><h4>First Capital</h4><p>Banking Innovation Pioneer</p></div>
-      <div class="spotlight-card"><img src="images/access-botswana.png" alt="Access Botswana"><h4>Access Botswana</h4><p>Excellence in Digital Connectivity</p></div>
-      <div class="spotlight-card"><img src="images/dhl.png" alt="DHL"><h4>DHL</h4><p>Logistics & Supply Chain Leader</p></div>
-      <div class="spotlight-card"><img src="images/appen-ridge.png" alt="Appen Ridge"><h4>Appen Ridge</h4><p>Regional Innovation Pioneer</p></div>
-      <div class="spotlight-card"><img src="images/clemmar.png" alt="Clemmar"><h4>Clemmar</h4><p>Sustainability Champion</p></div>
-      <div class="spotlight-card"><img src="images/mpssb.png" alt="MPSSB"><h4>MPSSB</h4><p>Engineering Excellence Leader</p></div>
-    </div>
-  </section>
-
-  <!-- Latest News & Insights -->
-  <section class="container" style="margin:3.5rem 0;">
+  <!-- Latest from the Botswana Index -->
+  <section class="container news-section">
     <h2>Latest from the Botswana Index</h2>
     <div class="news-grid">
       <div class="news-card"><img src="images/mining-sector.png" alt=""><h3>Botswana Mining Sector Surges 18% Amid Global Demand</h3><p>Industry leaders credit governance reforms…</p><small>10 Mar 2026</small></div>
@@ -99,13 +102,18 @@
     </div>
   </section>
 
-  <!-- Rest of your original sections (pillars already above, products, inclusion signals, stamps, final CTA) remain exactly as they were in your original index.html -->
-  <!-- Simple Final CTA -->
-  <section class="final-cta" style="text-align:center; padding:3rem 0;">
-    <a href="contact.html" class="cta-button" style="background:#D4AF37; color:black; padding:1rem 2rem; border-radius:6px; text-decoration:none; font-weight:600;">Nominate Your Company Today</a>
-  </section>
+  <!-- Quote of the Day -->
+  <div class="quote-day container">
+    “True corporate excellence is built on integrity and long-term vision.”<br>
+    <small>— Botswana Business Leader, 2026</small>
+  </div>
 
-  <!-- Footer -->
+  <!-- Final CTA -->
+  <div class="final-cta container">
+    <a href="contact.html" class="cta-button">Nominate Your Company Today</a>
+  </div>
+
+  <!-- FOOTER - your original footer -->
   <footer>
     <div class="container">
       <img src="images/index-group-logo.png" alt="Index Group Logo" class="footer-logo">
