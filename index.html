@@ -13,7 +13,9 @@
 </head>
 <body>
 
-  <!-- HEADER - restored exactly like your other pages + Figma -->
+ <body>
+
+  <!-- HEADER -->
   <header>
     <div class="container">
       <div class="logo">
@@ -38,21 +40,21 @@
     </div>
   </header>
 
-  <!-- THREE-COLUMN PANEL (exact Figma layout) -->
+  <!-- THREE-COLUMN PANEL -->
   <section class="three-column container">
     <div class="panel">
       <h3>Evening Brief</h3>
-      <ul>
-        <li>Botswana Mining Output Hits Record High in Q1 2026 — 2 Apr 2026</li>
-        <li>Major Telecom Merger Talks Accelerate — 1 Apr 2026</li>
-        <li>New Foreign Investment Bill Passes Parliament — 28 Mar 2026</li>
-        <li>Leading Bank Reports Strong Q1 Stability Metrics — 25 Mar 2026</li>
-        <li>Logistics Sector Sees 11% Growth — 20 Mar 2026</li>
+      <ul style="list-style:none;padding:0;margin:1rem 0 0 0;line-height:1.6;">
+        <li style="border-left:3px solid #e5e5e5;padding-left:12px;">Botswana Mining Output Hits Record High in Q1 2026<br><small>2 Apr 2026</small></li>
+        <li style="border-left:3px solid #e5e5e5;padding-left:12px;">Major Telecom Merger Talks Accelerate<br><small>1 Apr 2026</small></li>
+        <li style="border-left:3px solid #e5e5e5;padding-left:12px;">New Foreign Investment Bill Passes Parliament<br><small>28 Mar 2026</small></li>
+        <li style="border-left:3px solid #e5e5e5;padding-left:12px;">Leading Bank Reports Strong Q1 Stability Metrics<br><small>25 Mar 2026</small></li>
+        <li style="border-left:3px solid #e5e5e5;padding-left:12px;">Logistics Sector Sees 11% Growth<br><small>20 Mar 2026</small></li>
       </ul>
     </div>
 
     <div class="panel">
-      <img src="images/center-panel.png" alt="Corporate Skyline">
+      <img src="images/center-panel.png" alt="Corporate Skyline" style="width:100%;border-radius:0;">
       <h2>Why Corporate Prestige Is Becoming Botswana’s Most Valuable Asset in 2026</h2>
       <p>In a competitive Southern African market, being seen as elite is no longer optional — it’s the difference between growth and stagnation.</p>
       <p><small>Index Group Editorial — 2 April 2026</small></p>
@@ -60,60 +62,122 @@
 
     <div class="panel">
       <h3>Business Pulse</h3>
-      <div class="pulse-item">KPSMG Botswana reports 14% revenue growth in Q1 2026<br><small>Real-Time Update as of 2 April 2026</small></div>
-      <div class="pulse-item">First Capital expands regional footprint with new branch<br><small>Real-Time Update as of 2 April 2026</small></div>
-      <div class="pulse-item">Access Botswana secures major government contract<br><small>Real-Time Update as of 2 April 2026</small></div>
+      <div style="background:#f8f9fa;padding:1.2rem;margin-bottom:1rem;border-radius:0;">KPSMG Botswana reports 14% revenue growth in Q1 2026<br><small>Real-Time Update as of 2 April 2026</small></div>
+      <div style="background:#f8f9fa;padding:1.2rem;margin-bottom:1rem;border-radius:0;">First Capital expands regional footprint with new branch<br><small>Real-Time Update as of 2 April 2026</small></div>
+      <div style="background:#f8f9fa;padding:1.2rem;border-radius:0;">Access Botswana secures major government contract<br><small>Real-Time Update as of 2 April 2026</small></div>
 
-      <h3>LIVE POLL – 47 Responses</h3>
-      <p>What matters most for corporate prestige in Botswana right now?</p>
-      <label><input type="radio"> Talent attraction</label>
-      <label><input type="radio"> Networking access</label>
-      <label><input type="radio"> Media visibility</label>
-      <label><input type="radio"> Regulatory influence</label>
-      <label><input type="radio"> Community impact</label>
+      <h3 style="margin-top:2rem;color:#666;">LIVE POLL – 47 Responses</h3>
+      <p style="margin-bottom:1rem;">What matters most for corporate prestige in Botswana right now?</p>
+      <label style="display:block;margin:0.6rem 0;"><input type="radio"> Talent attraction</label>
+      <label style="display:block;margin:0.6rem 0;"><input type="radio"> Networking access</label>
+      <label style="display:block;margin:0.6rem 0;"><input type="radio"> Media visibility</label>
+      <label style="display:block;margin:0.6rem 0;"><input type="radio"> Regulatory influence</label>
+      <label style="display:block;margin:0.6rem 0;"><input type="radio"> Community impact</label>
+    </div>
+  </section>
+
+  <!-- What Index Group Is -->
+  <section class="container" style="margin:3.5rem 0;">
+    <h2 style="font-size:1.8rem;margin-bottom:2rem;">What Index Group Is</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;">
+      <div style="background:#fff;border:1px solid #e5e5e5;padding:1.8rem;border-radius:0;">
+        <h3>Parent platform for national indexes</h3>
+        <p style="color:#666;font-size:0.98rem;">Index Group serves as the parent platform for a family of national indexes in Botswana. It establishes a unified, governance-first framework.</p>
+      </div>
+      <div style="background:#fff;border:1px solid #e5e5e5;padding:1.8rem;border-radius:0;">
+        <h3>Builder of governance-grade recognition systems</h3>
+        <p style="color:#666;font-size:0.98rem;">The platform acts as a builder of governance-grade recognition systems. It develops rigorous, transparent methodologies.</p>
+      </div>
+      <div style="background:#fff;border:1px solid #e5e5e5;padding:1.8rem;border-radius:0;">
+        <h3>Bridge between local institutions and global standards</h3>
+        <p style="color:#666;font-size:0.98rem;">Index Group functions as a deliberate bridge between local institutions and global standards.</p>
+      </div>
     </div>
   </section>
 
   <!-- CURRENT SPOTLIGHT COMPANIES -->
-  <section class="container spotlight-section">
-    <h2>CURRENT SPOTLIGHT COMPANIES</h2>
+  <section class="container" style="margin:3.5rem 0;">
+    <h2 style="font-size:1.8rem;margin-bottom:1.5rem;">CURRENT SPOTLIGHT COMPANIES</h2>
     <div class="spotlight-grid">
-      <div class="spotlight-card"><img src="images/kpsmg-botswana.png" alt=""><h4>KPSMG Botswana</h4><p>Leader in Financial Stability</p></div>
-      <div class="spotlight-card"><img src="images/sanlam.png" alt=""><h4>Sanlam</h4><p>Excellence in Risk Management</p></div>
-      <div class="spotlight-card"><img src="images/first-capital.png" alt=""><h4>First Capital</h4><p>Banking Innovation Pioneer</p></div>
-      <div class="spotlight-card"><img src="images/access-botswana.png" alt=""><h4>Access Botswana</h4><p>Excellence in Digital Connectivity</p></div>
-      <div class="spotlight-card"><img src="images/dhl.png" alt=""><h4>DHL</h4><p>Logistics & Supply Chain Leader</p></div>
-      <div class="spotlight-card"><img src="images/appen-ridge.png" alt=""><h4>Appen Ridge</h4><p>Regional Innovation Pioneer</p></div>
-      <div class="spotlight-card"><img src="images/clemmar.png" alt=""><h4>Clemmar</h4><p>Sustainability Champion</p></div>
-      <div class="spotlight-card"><img src="images/mpssb.png" alt=""><h4>MPSSB</h4><p>Engineering Excellence Leader</p></div>
+      <div class="spotlight-card"><img src="images/kpsmg.png" alt=""><h4>KPSMG</h4><p style="color:#D4AF37;font-size:0.95rem;">Leader in Financial Stability</p></div>
+      <div class="spotlight-card"><img src="images/sanlam.png" alt=""><h4>Sanlam</h4><p style="color:#D4AF37;font-size:0.95rem;">Excellence in Risk Management</p></div>
+      <div class="spotlight-card"><img src="images/first-capital.png" alt=""><h4>First Capital</h4><p style="color:#D4AF37;font-size:0.95rem;">Banking Innovation Pioneer</p></div>
+      <div class="spotlight-card"><img src="images/access-botswana.png" alt=""><h4>Access Botswana</h4><p style="color:#D4AF37;font-size:0.95rem;">Excellence in Digital Connectivity</p></div>
+      <div class="spotlight-card"><img src="images/dhl.png" alt=""><h4>DHL</h4><p style="color:#D4AF37;font-size:0.95rem;">Logistics & Supply Chain Leader</p></div>
+      <div class="spotlight-card"><img src="images/appen-ridge.png" alt=""><h4>Appen Ridge</h4><p style="color:#D4AF37;font-size:0.95rem;">Regional Innovation Pioneer</p></div>
+      <div class="spotlight-card"><img src="images/clemmar.png" alt=""><h4>Clemmar</h4><p style="color:#D4AF37;font-size:0.95rem;">Sustainability Champion</p></div>
+      <div class="spotlight-card"><img src="images/mpssb.png" alt=""><h4>MPSSB</h4><p style="color:#D4AF37;font-size:0.95rem;">Engineering Excellence Leader</p></div>
+    </div>
+  </section>
+
+  <!-- Index Products -->
+  <section class="container" style="margin:3.5rem 0;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2rem;text-align:center;">
+      <div><img src="images/index-100-logo.png" alt="" style="height:60px;"><p style="margin:8px 0 0 0;color:#666;font-size:0.95rem;">Flagship annual recognition of corporate excellence</p></div>
+      <div><img src="images/index-400-logo.png" alt="" style="height:60px;"><p style="margin:8px 0 0 0;color:#666;font-size:0.95rem;">Extended recognition platform (in development)</p></div>
+      <div><img src="images/index-500-logo.png" alt="" style="height:60px;"><p style="margin:8px 0 0 0;color:#666;font-size:0.95rem;">Comprehensive institutional benchmarking series (in development)</p></div>
+      <div><p style="margin:30px 0 0 0;color:#666;font-size:0.95rem;">BES</p><p style="color:#666;font-size:0.95rem;">Annual convening for brand and governance leaders</p></div>
+      <div><p style="margin:30px 0 0 0;color:#666;font-size:0.95rem;">BAID</p><p style="color:#666;font-size:0.95rem;">Strategic intelligence and institutional analysis series</p></div>
+    </div>
+  </section>
+
+  <!-- Index Methodologies Accredited (black) -->
+  <section class="accreditation-section">
+    <div class="container">
+      <h2 style="font-size:1.8rem;margin-bottom:2rem;">Index Methodologies Accredited & Recognized by Leading Institutions</h2>
+      <div class="accreditation-grid">
+        <div class="accreditation-card">
+          <img src="images/bice-stamp.png" alt="BICE" style="max-height:70px;">
+          <p style="color:#ddd;font-size:0.97rem;">Methodologies formally accredited by the Botswana Institute for Corporate Excellence (BICE), ensuring alignment with national governance standards and institutional best practice.</p>
+        </div>
+        <div class="accreditation-card">
+          <img src="images/sadc-brands-stamp.png" alt="SADC Brands" style="max-height:70px;">
+          <p style="color:#ddd;font-size:0.97rem;">Recognized within the SADC Brands framework, affirming regional relevance and adherence to Southern African corporate excellence principles.</p>
+        </div>
+        <div class="accreditation-card">
+          <img src="images/botswana-pride-stamp.png" alt="Botswana Pride" style="max-height:70px;">
+          <p style="color:#ddd;font-size:0.97rem;">Endorsed as a symbol of Botswana Pride, reflecting commitment to national values of integrity, innovation, and long-term institutional strength.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Latest from the Botswana Index -->
-  <section class="container news-section">
-    <h2>Latest from the Botswana Index</h2>
+  <section class="container" style="margin:3.5rem 0;">
+    <h2 style="font-size:1.8rem;margin-bottom:2rem;">Latest from the Botswana Index</h2>
     <div class="news-grid">
-      <div class="news-card"><img src="images/mining-sector.png" alt=""><h3>Botswana Mining Sector Surges 18% Amid Global Demand</h3><p>Industry leaders credit governance reforms…</p><small>10 Mar 2026</small></div>
-      <div class="news-card"><img src="images/telco-tower.png" alt=""><h3>Telecom Giants Eye SADC Expansion</h3><p>Major providers announce strategic initiatives…</p><small>28 Feb 2026</small></div>
-      <div class="news-card"><img src="images/top5-ceos.png" alt=""><h3>Top 5 CEOs Driving Innovation in Botswana</h3><p>Executive leaders transforming corporate culture…</p><small>15 Feb 2026</small></div>
-      <div class="news-card"><img src="images/talent-attraction.png" alt=""><h3>How Elite Recognition Boosts Talent Attraction</h3><p>New research shows 34% improvement…</p><small>5 Feb 2026</small></div>
-      <div class="news-card"><img src="images/corporate-legacy.png" alt=""><h3>The Rise of Corporate Legacy in Southern Africa</h3><p>Analysis of how companies are building institutional permanence…</p><small>20 Jan 2026</small></div>
-      <div class="news-card"><img src="images/new-standouts.png" alt=""><h3>Index Update: New Standouts Join the 100</h3><p>Six additional corporations secure placement…</p><small>12 Jan 2026</small></div>
+      <div class="news-card"><img src="images/mining-sector.png" alt=""><h3>Botswana Mining Sector Surges 18% Amid Global Demand</h3><p style="color:#666;font-size:0.97rem;">Industry leaders credit governance reforms and international partnerships for unprecedented growth trajectory.</p><small>Index Group Editorial — 10 Mar 2026</small></div>
+      <div class="news-card"><img src="images/telco-tower.png" alt=""><h3>Telecom Giants Eye SADC Expansion</h3><p style="color:#666;font-size:0.97rem;">Major telecommunications providers announce strategic initiatives to strengthen regional connectivity infrastructure.</p><small>Index Group Editorial — 28 Feb 2026</small></div>
+      <div class="news-card"><img src="images/top5-ceos.png" alt=""><h3>Top 5 CEOs Driving Innovation in Botswana</h3><p style="color:#666;font-size:0.97rem;">Executive leaders transforming corporate culture through digital transformation and sustainable practices.</p><small>Index Group Editorial — 15 Feb 2026</small></div>
+      <div class="news-card"><img src="images/talent-attraction.png" alt=""><h3>How Elite Recognition Boosts Talent Attraction</h3><p style="color:#666;font-size:0.97rem;">New research shows Index inclusion correlates with 34% improvement in attracting top-tier professionals.</p><small>Index Group Editorial — 5 Feb 2026</small></div>
+      <div class="news-card"><img src="images/corporate-legacy.png" alt=""><h3>The Rise of Corporate Legacy in Southern Africa</h3><p style="color:#666;font-size:0.97rem;">Analysis of how companies are building institutional permanence through governance excellence.</p><small>Index Group Editorial — 20 Jan 2026</small></div>
+      <div class="news-card"><img src="images/new-standouts.png" alt=""><h3>Index Update: New Standouts Join the 100</h3><p style="color:#666;font-size:0.97rem;">Six additional corporations secure placement in prestigious business excellence benchmark.</p><small>Index Group Editorial — 12 Jan 2026</small></div>
+    </div>
+  </section>
+
+  <!-- Spotlight Standouts -->
+  <section class="container" style="margin:3.5rem 0;">
+    <h2 style="font-size:1.8rem;margin-bottom:1.5rem;">Botswana Index 100 Spotlight – Current Standouts</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem;">
+      <div style="border:2px solid #D4AF37;padding:1.5rem;border-radius:0;"><div style="background:#D4AF37;color:#000;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;margin-bottom:1rem;">1</div><p>Most Valuable Corporate Asset</p></div>
+      <div style="border:1px solid #ccc;padding:1.5rem;border-radius:0;"><div style="background:#888;color:#fff;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;margin-bottom:1rem;">2</div><p>Leader in Digital Innovation</p></div>
+      <div style="border:2px solid #D4AF37;padding:1.5rem;border-radius:0;"><div style="background:#D4AF37;color:#000;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;margin-bottom:1rem;">3</div><p>Excellence in Financial Stability</p></div>
+      <div style="border:2px solid #000;padding:1.5rem;border-radius:0;"><div style="background:#000;color:#fff;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;margin-bottom:1rem;">4</div><p>Best in Customer Experience</p></div>
+      <!-- Add 5-8 similarly with appropriate colors -->
+    </div>
+    <div style="background:#f8f9fa;padding:2rem;margin-top:3rem;border-left:6px solid #D4AF37;">
+      Full rankings, detailed profiles, and category winners are available exclusively to companies that have joined the Botswana Index. Nominate your company today to secure your place among Botswana’s elite.
     </div>
   </section>
 
   <!-- Quote of the Day -->
   <div class="quote-day container">
-    “True corporate excellence is built on integrity and long-term vision.”<br>
-    <small>— Botswana Business Leader, 2026</small>
+    "True corporate excellence is built on integrity and long-term vision."<br>
+    <small>— Botswana Business Leader, 2026</small><br>
+    <a href="#" style="color:#D4AF37;font-size:0.95rem;">See More Quotes</a>
   </div>
 
-  <!-- Final CTA -->
-  <div class="final-cta container">
-    <a href="contact.html" class="cta-button">Nominate Your Company Today</a>
-  </div>
-
-  <!-- FOOTER - your original footer -->
+  <!-- FOOTER -->
   <footer>
     <div class="container">
       <img src="images/index-group-logo.png" alt="Index Group Logo" class="footer-logo">
