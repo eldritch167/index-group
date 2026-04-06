@@ -750,3 +750,13 @@ header nav a { color: #000; text-decoration: none; font-weight: 500; font-size: 
 .quote-day { background: #f8f9fa; padding: 2.5rem; text-align: center; margin: 3.5rem auto; font-style: italic; border-left: 6px solid #D4AF37; max-width: 1280px; }
 .final-cta { text-align: center; padding: 3rem 0; }
 .cta-button { background: #D4AF37; color: #000; padding: 1rem 2.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 1.1rem; }
+.container { max-width: 1280px; margin: 0 auto; padding: 0 2rem; }
+
+header { background:#000; color:#fff; }
+header a { color:#fff; }
+
+.panel, .news-card, .spotlight-card, .accreditation-card { background:#111; border:1px solid #555; color:#fff; }
+
+.news-grid, .spotlight-grid { gap: 2rem; }
+
+.quote-day { background:#f8f9fa; color:#000; }
